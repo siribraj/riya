@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: 550;
+    font-size: 350%;
+}
+
+
+/* navbar */
+
+.navbar {
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: #f6acc8;
+    padding: 2% 3%;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 200%;
+}
+
+.headings {
+    margin-top: 2%;
+}
+
+.nav-item {
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+
+/* title */
+
+.title-img {
+    width: 20rem;
+    padding: 2%;
+    transform: rotate(25deg);
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0);
+        position: static;
+        border-radius: 90%;
+    }
+}
+
+.cake-img {
+    width: 8rem;
+    padding: 2%;
+}
+
+
+/* slides */
+
+#slides1 {
+    position: relative;
+    z-index: -1;
+    width: auto;
+}
+
+.s {
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+}
+
+
+/* Wishes */
+
+#wishes {
+    padding-top: 3%;
+    background-color: #f6acc8;
+}
+
+.pics {
+    padding: 2%;
+    width: 30%;
+}
+
+
+/* controlled slides */
+
+#slides2 {
+    margin: auto;
+    padding: 2% 0;
+    background-color: #ffff;
+    width: max-content;
+}
+
+.slide-image {
+    width: 70%;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 2% 2%;
+}
+
+
+/* Footer */
+
+#footer {
+    margin-top: 15% 0 0;
+    position: relative;
+    z-index: 1;
+    background-color: #ffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.f-image {
+    padding: 2.5%;
+    font-size: 4rem;
+}
